@@ -83,7 +83,7 @@ public class Weibo extends CordovaPlugin {
     }
 
     /**
-     * ?�断字符串是?�为�?
+     * ?斗摮泵銝脫?虫蛹蝛?
      */
     public static boolean isEmptyString(String str) {
         return null == str || "".equals(str);
