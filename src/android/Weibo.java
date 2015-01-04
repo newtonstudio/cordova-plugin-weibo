@@ -19,8 +19,8 @@
 
 package com.polyvi.plugins.weibo;
 
-import org.apache.cordova.api.CallbackContext;
-import org.apache.cordova.api.CordovaPlugin;
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
 
@@ -83,7 +83,7 @@ public class Weibo extends CordovaPlugin {
     }
 
     /**
-     * 判断字符串是否为空
+     * ?�断字符串是?�为�?
      */
     public static boolean isEmptyString(String str) {
         return null == str || "".equals(str);
